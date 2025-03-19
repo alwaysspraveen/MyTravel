@@ -1,14 +1,21 @@
 import arrow from "../assets/angle-right-svgrepo-com.svg";
 import ames from "../assets/amester.jpg";
+<<<<<<< HEAD
 import paris from "../assets/istockphoto-490360522-612x612.jpg";
 import berlin from "../assets/berlin.jpg";
 
 
 
+=======
+import paris from "../assets/paris.jpg";
+import berlin from "../assets/berlin.jpg";
+import City from "../components/City";
+>>>>>>> de06de4 (latest)
 
 function Hotels() {
   return (
     <>
+<<<<<<< HEAD
     <div className="flex justify-between items-center w-full h-4">
         <p className="text-xl font-medium">Popular hotels</p>
         <img className="h-10" src={arrow}/>
@@ -30,6 +37,17 @@ function Hotels() {
       <div className="snap-start shrink-0">
         <img className="w-[150px] h-[220px] rounded-lg" src={ames} alt="Image 5"/>
       </div>
+=======
+    <div className="flex justify-between items-center w-full h-4 pt-6">
+        <p className="text-xl font-medium">Popular hotels</p>
+        <img className="h-10" src={arrow}/>
+    </div>
+    <div className="overflow-x-auto flex snap-x snap-mandatory space-x-4 pt-6 scrollbar-hide" style={{ scrollbarWidth: "none", msOverflowStyle: "none", margin:"10px 0px 0px 0px" }}>
+      <City title={"Berlin"} imgSrc={berlin}/>
+      <City title={"Amesterdam"} imgSrc={ames}/>
+      <City title={"Paris"} imgSrc={paris}/>
+      <City title={"Berlin"} imgSrc={berlin}/>
+>>>>>>> de06de4 (latest)
     </div>
     </>
   )

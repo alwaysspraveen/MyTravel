@@ -1,11 +1,18 @@
 @import "tailwindcss";
 
 *{
+<<<<<<< HEAD
     padding: 0;
     margin: 3px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
 }
+=======
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+>>>>>>> de06de4 (latest)
 input::placeholder{
     font-size: 18px;
     align-items: center;
